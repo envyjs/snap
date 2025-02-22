@@ -1,7 +1,16 @@
-  body {
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('./Assets/Inter-Regular.woff2')
+}
+
+body {
+    font-family: 'Inter';
     overflow: hidden;
     user-select: none;
     background: #1e1e1e;
+    color: white;
   }
   button, input {
     background-color: black;
